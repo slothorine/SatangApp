@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">Satang</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Hello</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Satang</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="chart">Chart</string>
+    <string name="about">About</string>
+    <string name="about_text">About Satang</string>
+    <string name="top">Top List</string>
+    <string name="refresh">Refresh</string>
+    <string name="cate">Category/Subcategory :</string>
+    <string name="date">Date :</string>
+    <string name="detail">Details :</string>
+    <string name="value">Values :</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="lineChart">Summary This Year</string>
+    <string name="barChart">Bar Chart</string>
+    <string name="piChart">Summary All</string>
+    <string name="sincome">Search Income</string>
+    <string name="sexpense">Search Expense</string>
+     <string-array name="month_array">
+        <item>Choose Month</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+         <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+     <string name="curVersion">Current Version</string>
+     <string name="version">1.00.000</string>
+     <string name="devBy">Developed By</string>
+     <string name="thor">Mr.Kritsada Chinpala</string>
+     <string name="coke">Mr.Kritsanat Somboonsup</string>
+     <string name="spuc">Sripatum University Chonburi Camp.</string>
+     <string name="todo">TODO</string>
+     <string name="cat">Category</string>
+     <string name="val">Values</string>
+</resources>

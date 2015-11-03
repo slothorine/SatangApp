@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab3"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+    
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        style="@style/Mainpage"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:text="Yearly Summary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <EditText
+            android:id="@+id/yeartxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/renderyear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.19"
+            android:text="Render" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/TextView02"
+            style="@style/Mainpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Year : " />
+
+        <TextView
+            android:id="@+id/sumyeartxt5"
+            style="@style/Mainpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Date" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:id="@+id/TextView11"
+                style="@style/Mainpage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:text="Income:" />
+
+            <TextView
+                android:id="@+id/sumIny"
+                style="@style/Mainpage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="N" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:id="@+id/TextView12"
+                style="@style/Mainpage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:text="Necessary Expense:" />
+
+            <TextView
+                android:id="@+id/sumNey"
+                style="@style/Mainpage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="N" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:id="@+id/TextView13"
+                style="@style/Mainpage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:text="Unnecessary Expense:" />
+
+            <TextView
+                android:id="@+id/sumUny"
+                style="@style/Mainpage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="N" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView14"
+                style="@style/Mainpage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:text="Other Expense:" />
+
+            <TextView
+                android:id="@+id/sumOty"
+                style="@style/Mainpage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="N" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView15"
+                style="@style/Mainpage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:text="Total Expense:"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/ally"
+                style="@style/Mainpage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="N"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#D3D3D3" >
+
+            <TextView
+                android:id="@+id/TextView16"
+                style="@style/Mainpage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:text="Remain:"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/remy"
+                style="@style/Mainpage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="N"
+                android:textSize="20dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow08"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#CCFF99" >
+
+            <TextView
+                android:id="@+id/Advice"
+                style="@style/Mainpage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:text="Advice Saving Goal:"
+                android:textColor="#FF0000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/sumAdvicey"
+                style="@style/Mainpage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="N"
+                android:textSize="20dp" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
+</ScrollView>

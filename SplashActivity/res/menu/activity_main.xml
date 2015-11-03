@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/tips"
+        android:title="Summary"
+       android:showAsAction="always"
+       />
+    <item android:id="@+id/searchinc"
+        android:title="Search Income"
+       android:showAsAction="always"
+       />
+    <item android:id="@+id/searchex"
+        android:title="Search Expense"
+       android:showAsAction="always"
+       />
+   
+   <item android:id="@+id/userguide"
+        android:title="User Guide"
+        android:icon="@drawable/howto"
+       android:showAsAction="never|withText"
+       />
+    <item android:id="@+id/aboutme"
+        android:title="About"
+       android:showAsAction="never|withText"
+       />
+
+</menu>

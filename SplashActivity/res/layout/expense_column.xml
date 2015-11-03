@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	
+	<TextView
+	    android:id="@+id/ColCate2"
+	    style="@style/ButtonText4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="cacategory" />
+	
+	<TextView
+	    android:id="@+id/ColName2"
+	    style="@style/ButtonText4"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1.73"
+	    android:text="caname" />
+
+</LinearLayout>
